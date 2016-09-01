@@ -1,7 +1,7 @@
 " カラースキーム "
-syntax on
 filetype indent on
 filetype plugin on
+syntax on
 colorscheme iceberg
 set t_Co=256
 
