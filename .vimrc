@@ -71,3 +71,9 @@ NeoBundleCheck
 " カラースキーム
 syntax on
 colorscheme iceberg
+
+" NERDTree
+let g:NERDTreeShowBookmarks=1
+if !argc()
+  autocmd vimenter * NERDTree|normal gg3j
+endif
