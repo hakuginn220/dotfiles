@@ -3,6 +3,6 @@
 ## install
 
 ```shell
-$ git clone git@github.com:hakuginn220/dotfiles.git ~/dotfiles
+$ git clone https://github.com/hakuginn220/dotfiles ~/dotfiles
 $ sh ~/dotfiles/install.sh
 ```
