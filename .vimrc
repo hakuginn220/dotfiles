@@ -25,6 +25,7 @@ set smartindent
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set mouse=a
 set clipboard=unnamed
 set virtualedit=onemore
 set backspace=indent,eol,start
@@ -32,27 +33,26 @@ set formatoptions+=mM
 set fileformat=unix
 set fileformats=unix,dos,mac
 
-" マウス設定
-set mouse=a
-
 "NeoBundle Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
 endif
 
 " Required:
-set runtimepath+=/Users/ys/.vim/bundle/neobundle.vim/
+set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('/Users/ys/.vim/bundle'))
+call neobundle#begin(expand('~/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Add or remove your Bundles here:
-NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'editorconfig/editorconfig-vim'
 NeoBundle 'cocopon/iceberg.vim'
+NeoBundle 'scrooloose/nerdtree'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
