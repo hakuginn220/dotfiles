@@ -7,6 +7,13 @@ fi
 PROMPT='%m:%c %n$ '
 RPROMPT='[%~]'
 
+# システム設定
+export HISTFILE=$HOME/.zsh_history
+export HISTSIZE=1000
+export SAVEHIST=100000
+setopt hist_ignore_dups
+setopt EXTENDED_HISTORY
+
 # 操作設定
 bindkey -v
 autoload -U compinit; compinit
