@@ -1,5 +1,4 @@
 " システム設定
-set t_Co=256
 set autoread
 set nobackup
 set noswapfile
@@ -9,6 +8,7 @@ set showcmd
 " 画面設定
 set title
 set number
+set ruler
 set cursorline
 set showmatch
 

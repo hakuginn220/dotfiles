@@ -1,4 +1,4 @@
 #!/bin/sh
-source ~/dotfiles/bin/anyenv.sh
-source ~/dotfiles/bin/neobundle.sh
-source ~/dotfiles/bin/symlink.sh
+source ./bin/symlink.sh
+source ./bin/anyenv.sh
+source ./bin/neobundle.sh
