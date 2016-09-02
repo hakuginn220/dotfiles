@@ -54,9 +54,6 @@ NeoBundle 'editorconfig/editorconfig-vim'
 NeoBundle 'cocopon/iceberg.vim'
 NeoBundle 'scrooloose/nerdtree'
 
-" You can specify revision/branch/tag.
-NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
-
 " Required:
 call neobundle#end()
 

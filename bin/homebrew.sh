@@ -10,6 +10,7 @@ if [ ! -x "`which brew`" ] ; then
   exec brew install wget cloc tree
   exec brew install go lua
   exec brew install vim --with-lua
+  exec brew install heroku
   exec $SHELL -l
   exec brew cleanup
   exec brew doctor
