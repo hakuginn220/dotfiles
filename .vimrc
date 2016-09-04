@@ -37,14 +37,15 @@ set autoread
 set nobackup
 set noswapfile
 set hidden
-set showcmd
 
 " 画面設定
 set title
 set number
 set ruler
+set list
 set cursorline
 set showmatch
+set showcmd
 
 " 検索設定
 set ignorecase
