@@ -30,16 +30,6 @@ filetype plugin indent on
 NeoBundleCheck
 "End NeoBundle Scripts-------------------------
 
-" NERDTree
-let g:NERDTreeShowBookmarks=1
-if !argc()
-  autocmd vimenter * NERDTree|normal gg3j
-endif
-
-" iceberg
-syntax on
-colorscheme iceberg
-
 " システム設定
 set t_ut=
 set t_Co=256
@@ -77,3 +67,17 @@ set formatoptions+=mM
 set fileformat=unix
 set fileformats=unix,dos,mac
 set whichwrap=b,s,h,s,<,>,[,]
+
+" iceberg
+syntax on
+set background=dark
+colorscheme iceberg
+highlight Normal ctermbg=NONE
+highlight LineNr ctermbg=NONE
+highlight nonText ctermbg=NONE
+
+" NERDTree
+let g:NERDTreeShowBookmarks=1
+if !argc()
+  autocmd vimenter * NERDTree|normal gg3j
+endif
