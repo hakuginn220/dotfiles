@@ -18,6 +18,11 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'editorconfig/editorconfig-vim'
 NeoBundle 'cocopon/iceberg.vim'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'digitaltoad/vim-pug'
+NeoBundle 'statianzo/vim-jade'
+NeoBundle 'stephenway/postcss.vim'
+NeoBundle 'othree/yajs.vim'
+NeoBundle 'mattn/emmet-vim'
 
 " Required:
 call neobundle#end()
@@ -46,6 +51,8 @@ set list
 set cursorline
 set showmatch
 set showcmd
+set nowrap
+set listchars=tab:>-,trail:-,nbsp:%
 
 " 検索設定
 set ignorecase
@@ -61,7 +68,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set mouse=a
-set clipboard=unnamed
+set clipboard=unnamed,autoselect
 set virtualedit=onemore
 set backspace=indent,eol,start
 set formatoptions+=mM
@@ -70,7 +77,7 @@ set fileformats=unix,dos,mac
 set whichwrap=b,s,h,s,<,>,[,]
 
 " iceberg
-syntax on
+syntax enable
 set background=dark
 colorscheme iceberg
 highlight Normal ctermbg=NONE
