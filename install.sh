@@ -10,18 +10,14 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 
 # install homebrew
 if [ ! -x "`which brew`" ] ; then
-  exec /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  exec brew update
-  exec brew upgrade
-  exec brew install git
-  exec brew install openssl zsh tig tmux
-  exec brew install wget cloc tree
-  exec brew install go lua
-  exec brew install vim --with-lua
-  exec brew install heroku
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  brew update
+  brew upgrade
+  brew install git openssl zsh tig tmux wget cloc tree go lua heroku
+  brew install vim --with-lua
+  brew cleanup
+  brew doctor
   exec $SHELL -l
-  exec brew cleanup
-  exec brew doctor
 fi
 
 # install anyenv
@@ -30,13 +26,19 @@ if [ ! -d ~/.anyenv ] ; then
   exec $SHELL -l
 fi
 
+if [ ! -x "`which anyenv update`" ] ; then
+  mkdir -p $(anyenv root)/plugins
+  git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
+  exec $SHELL -l
+fi
+
 if [ ! -x "`which ndenv`" ] ; then
-  exec anyenv install ndenv
+  anyenv install ndenv
   exec $SHELL -l
 fi
 
 if [ ! -x "`which rbenv`" ] ; then
-  exec anyenv install rbenv
+  anyenv install rbenv
   exec $SHELL -l
 fi
 
