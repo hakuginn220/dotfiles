@@ -2,6 +2,8 @@
 call plug#begin('~/.vim/plugged')
 Plug 'cocopon/iceberg.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 " システム設定
