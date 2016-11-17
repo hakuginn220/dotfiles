@@ -48,9 +48,11 @@ set fileformats=unix,dos,mac
 set whichwrap=b,s,h,s,<,>,[,]
 
 " iceberg
-augroup iceberg
-  colorscheme iceberg
-augroup END
+syntax on
+autocmd ColorScheme * highlight Normal ctermbg=NONE
+autocmd ColorScheme * highlight NonText ctermbg=NONE
+autocmd ColorScheme * highlight LineNr ctermbg=NONE
+colorscheme iceberg
 
 " NERDTree
 let g:NERDTreeShowBookmarks=1
