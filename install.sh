@@ -3,8 +3,6 @@
 # symlink
 ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
-ln -sf ~/dotfiles/.zshenv ~/.zshenv
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 
@@ -13,7 +11,7 @@ if [ ! -x "`which brew`" ] ; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew update
   brew upgrade
-  brew install git openssl zsh tig tmux wget cloc tree go lua heroku
+  brew install git openssl fish tmux tig go lua
   brew install vim --with-lua
   brew cleanup
   brew doctor
