@@ -11,7 +11,7 @@ if [ ! -x "`which brew`" ] ; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew update
   brew upgrade
-  brew install git openssl fish tmux tig go lua
+  brew install git openssl fish tmux tig go python lua
   brew install vim --with-lua
   brew cleanup
   brew doctor
