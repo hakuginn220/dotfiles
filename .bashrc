@@ -10,4 +10,6 @@ eval "$(anyenv init -)"
 export GOPATH="$HOME/go"
 
 # fish
-exec fish
+if type fish >/dev/null 2>&1; then
+  exec fish
+fi
