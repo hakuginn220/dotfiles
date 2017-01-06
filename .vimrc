@@ -47,11 +47,37 @@ set fileformat=unix
 set fileformats=unix,dos,mac
 set whichwrap=b,s,h,s,<,>,[,]
 
-" iceberg
-syntax on
-autocmd ColorScheme * highlight Normal ctermbg=NONE
+" ctermbg=234 reset
+autocmd ColorScheme * highlight Error ctermbg=NONE
+autocmd ColorScheme * highlight ErrorMsg ctermbg=NONE
+autocmd ColorScheme * highlight WarningMsg ctermbg=NONE
+autocmd ColorScheme * highlight EndOfBuffer ctermbg=NONE
 autocmd ColorScheme * highlight NonText ctermbg=NONE
+autocmd ColorScheme * highlight SpecialKey ctermbg=NONE
+autocmd ColorScheme * highlight Normal ctermbg=NONE
+autocmd ColorScheme * highlight StatusLine ctermbg=NONE
+autocmd ColorScheme * highlight TabLineFill ctermbg=NONE
+autocmd ColorScheme * highlight TabLineSel ctermbg=NONE
+autocmd ColorScheme * highlight Todo ctermbg=NONE
+
+" ctermbg=235 reset
+autocmd ColorScheme * highlight ColorColumn ctermbg=NONE
+autocmd ColorScheme * highlight CursorColumn ctermbg=NONE
+autocmd ColorScheme * highlight CursorLine ctermbg=NONE
+autocmd ColorScheme * highlight Folded ctermbg=NONE
+autocmd ColorScheme * highlight FoldColumn ctermbg=NONE
 autocmd ColorScheme * highlight LineNr ctermbg=NONE
+autocmd ColorScheme * highlight SignColumn ctermbg=NONE
+autocmd ColorScheme * highlight GitGutterAdd ctermbg=NONE
+autocmd ColorScheme * highlight GitGutterChange ctermbg=NONE
+autocmd ColorScheme * highlight GitGutterChangeDelete ctermbg=NONE
+autocmd ColorScheme * highlight GitGutterDelete ctermbg=NONE
+autocmd ColorScheme * highlight SyntasticErrorSign ctermbg=NONE
+autocmd ColorScheme * highlight SyntasticStyleErrorSign ctermbg=NONE
+autocmd ColorScheme * highlight SyntasticStyleWarningSign ctermbg=NONE
+autocmd ColorScheme * highlight SyntasticWarningSign ctermbg=NONE
+
+" iceberg
 colorscheme iceberg
 
 " NERDTree
