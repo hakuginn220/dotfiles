@@ -81,4 +81,4 @@ autocmd ColorScheme * highlight SyntasticWarningSign ctermbg=NONE
 colorscheme iceberg
 
 " NERDTree
-nnoremap <silent><C-n> :NERDTreeToggle<CR>
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
