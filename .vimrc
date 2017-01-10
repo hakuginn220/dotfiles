@@ -81,7 +81,4 @@ autocmd ColorScheme * highlight SyntasticWarningSign ctermbg=NONE
 colorscheme iceberg
 
 " NERDTree
-let g:NERDTreeShowBookmarks=1
-if !argc()
-  autocmd VimEnter * NERDTree | normal gg3j
-endif
+nnoremap <silent><C-n> :NERDTreeToggle<CR>
