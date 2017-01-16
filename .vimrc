@@ -4,6 +4,7 @@ Plug 'cocopon/iceberg.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
+Plug 'digitaltoad/vim-pug'
 call plug#end()
 
 " システム設定
