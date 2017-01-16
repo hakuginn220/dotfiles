@@ -5,6 +5,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
 Plug 'digitaltoad/vim-pug'
+Plug 'wavded/vim-stylus'
 call plug#end()
 
 " システム設定
