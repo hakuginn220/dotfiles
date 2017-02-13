@@ -23,10 +23,5 @@ install:
 	@echo ""
 	@bash $(DOTPATH)/install.sh
 
-complete:
-	@echo ""
-	@echo "====> complete"
-	@echo ""
-
-init: update deploy install complete
+init: update deploy install
 	@exec $$SHELL
