@@ -11,6 +11,7 @@ if [ ! -x "`which anyenv`" ] ; then
   git clone https://github.com/riywo/anyenv ~/.anyenv
   exec $SHELL -l
 fi
+
 if [ ! -x "`which anyenv update`" ] ; then
   mkdir -p $(anyenv root)/plugins
   git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
