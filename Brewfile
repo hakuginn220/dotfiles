@@ -16,5 +16,8 @@ brew 'tmux'
 brew 'tree'
 brew 'vim', args: ['with-lua']
 brew 'wget'
+cask 'appcleaner'
 cask 'docker'
+cask 'google-chrome'
+cask 'iterm2'
 cask 'visual-studio-code'
