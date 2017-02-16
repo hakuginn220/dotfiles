@@ -17,3 +17,4 @@ brew 'tree'
 brew 'vim', args: ['with-lua']
 brew 'wget'
 cask 'docker'
+cask 'visual-studio-code'
