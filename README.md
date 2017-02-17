@@ -2,5 +2,6 @@
 
 ```shell
 $ git clone https://github.com/hakuginn220/dotfiles ~/dotfiles
+$ cd ~/dotfiles
 $ make
 ```
