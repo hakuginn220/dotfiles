@@ -18,6 +18,7 @@ brew 'vim', args: ['with-lua']
 brew 'wget'
 cask 'appcleaner'
 cask 'docker'
-cask 'google-chrome'
 cask 'iterm2'
+cask 'vagrant'
+cask 'virtualbox'
 cask 'visual-studio-code'
