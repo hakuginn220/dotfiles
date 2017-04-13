@@ -8,7 +8,7 @@ Plug 'digitaltoad/vim-pug'
 Plug 'wavded/vim-stylus'
 call plug#end()
 
-" システム設定
+" system
 set t_ut=
 set t_Co=256
 set autoread
@@ -16,7 +16,7 @@ set nobackup
 set noswapfile
 set hidden
 
-" 画面設定
+" screen
 set title
 set number
 set ruler
@@ -27,14 +27,14 @@ set showcmd
 set nowrap
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
-" 検索設定
+" search
 set ignorecase
 set smartcase
 set incsearch
 set wrapscan
 set hlsearch
 
-" 操作設定
+" operation
 set autoindent
 set smartindent
 set expandtab
