@@ -4,6 +4,7 @@ tap 'homebrew/core'
 cask 'xquartz'
 brew 'fish'
 brew 'git'
+brew 'reattach-to-user-namespace'
 brew 'tig'
 brew 'tmux'
 brew 'vim', args: ['with-lua']
