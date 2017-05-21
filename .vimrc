@@ -1,11 +1,11 @@
-" vim-plug
+" plug
 call plug#begin('~/.vim/plugged')
 Plug 'cocopon/iceberg.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'mattn/emmet-vim'
-Plug 'digitaltoad/vim-pug'
-Plug 'wavded/vim-stylus'
+Plug 'othree/yajs.vim'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'fleischie/vim-styled-components'
 call plug#end()
 
 " system
@@ -49,21 +49,8 @@ set fileformat=unix
 set fileformats=unix,dos,mac
 set whichwrap=b,s,h,s,<,>,[,]
 
-" ctermbg=234 reset
-autocmd ColorScheme * highlight Error ctermbg=NONE
-autocmd ColorScheme * highlight ErrorMsg ctermbg=NONE
-autocmd ColorScheme * highlight WarningMsg ctermbg=NONE
-autocmd ColorScheme * highlight EndOfBuffer ctermbg=NONE
-autocmd ColorScheme * highlight NonText ctermbg=NONE
-autocmd ColorScheme * highlight SpecialKey ctermbg=NONE
-autocmd ColorScheme * highlight Normal ctermbg=NONE
-autocmd ColorScheme * highlight StatusLine ctermbg=NONE
-autocmd ColorScheme * highlight TabLineFill ctermbg=NONE
-autocmd ColorScheme * highlight TabLineSel ctermbg=NONE
-autocmd ColorScheme * highlight Todo ctermbg=NONE
-
-" iceberg
+" theme
 colorscheme iceberg
 
-" NERDTree
+" command
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
