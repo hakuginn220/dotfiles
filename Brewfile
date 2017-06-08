@@ -5,9 +5,10 @@ cask "xquartz"
 brew "fish"
 brew "flow"
 brew "git"
+brew "heroku"
 brew "node"
-brew "nodenv"
-brew "rbenv"
+brew "nodenv", args: ["HEAD"]
+brew "rbenv", args: ["HEAD"]
 brew "reattach-to-user-namespace"
 brew "tig"
 brew "tmux"
