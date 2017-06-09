@@ -5,6 +5,7 @@ cask "xquartz"
 brew "fish"
 brew "flow"
 brew "git"
+brew "gradle"
 brew "heroku"
 brew "node"
 brew "nodenv", args: ["HEAD"]
