@@ -6,6 +6,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'othree/yajs.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'fleischie/vim-styled-components'
+Plug 'fatih/vim-go'
 call plug#end()
 
 " system
