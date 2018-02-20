@@ -3,10 +3,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'cocopon/iceberg.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'othree/yajs.vim'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'fleischie/vim-styled-components'
-Plug 'fatih/vim-go'
 call plug#end()
 
 " system
@@ -26,7 +22,6 @@ set cursorline
 set showmatch
 set showcmd
 set nowrap
-set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 " search
 set ignorecase
