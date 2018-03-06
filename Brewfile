@@ -1,6 +1,6 @@
-tap "caskroom/cask"
-tap "homebrew/bundle"
 tap "homebrew/core"
+tap "homebrew/bundle"
+tap "caskroom/cask"
 cask "xquartz"
 brew "fish"
 brew "flow"
