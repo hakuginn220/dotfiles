@@ -1,15 +1,12 @@
 tap "caskroom/cask"
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/core"
 cask "xquartz"
-brew "ansible"
 brew "fish"
 brew "flow"
 brew "git"
 brew "go"
 brew "node"
-brew "heroku"
 brew "nodenv", args: ["HEAD"]
 brew "rbenv", args: ["HEAD"]
 brew "reattach-to-user-namespace"
