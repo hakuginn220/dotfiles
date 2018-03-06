@@ -7,8 +7,8 @@ brew "flow"
 brew "git"
 brew "go"
 brew "node"
-brew "nodenv", args: ["HEAD"]
-brew "rbenv", args: ["HEAD"]
+brew "nodenv"
+brew "rbenv"
 brew "reattach-to-user-namespace"
 brew "tig"
 brew "tmux"
