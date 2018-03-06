@@ -1,7 +1,7 @@
 # Install for macOS (OSX)
 
 ```shell
-$ git clone https://github.com/hakuginn220/dotfiles ~/dotfiles
+$ git clone git@github.com:hakuginn220/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
 $ make
 ```
