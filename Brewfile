@@ -13,7 +13,6 @@ brew "tig"
 brew "tmux"
 brew "vim"
 brew "watchman"
-brew "wine", args: ["without-x11"]
 brew "yarn"
 cask "docker"
 cask "iterm2"
