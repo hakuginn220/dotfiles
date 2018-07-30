@@ -1,6 +1,6 @@
-tap "homebrew/core"
-tap "homebrew/cask"
 tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 brew "ffmpeg"
 brew "fish"
 brew "git"
