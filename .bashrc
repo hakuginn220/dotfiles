@@ -1,3 +1,2 @@
-# env
-eval "$(rbenv init -)"
+# bash setting
 eval "$(nodenv init -)"
