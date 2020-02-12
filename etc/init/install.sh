@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # homebrew
 if [ ! -x "`which brew`" ] ; then
