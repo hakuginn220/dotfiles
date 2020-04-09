@@ -1,3 +1,6 @@
+PROMPT='[%n@%m]# '
+RPROMPT='[%d]'
+
 # go
 export GOPATH=$HOME/go
 
