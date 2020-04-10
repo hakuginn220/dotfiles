@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
 brew "ffmpeg"
-brew "fish"
 brew "git"
 brew "go"
 brew "node"
